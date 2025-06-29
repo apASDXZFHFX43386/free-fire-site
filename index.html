@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>تحميل تطبيق Free Fire Lock</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Tahoma', sans-serif;
+      background: linear-gradient(to bottom, #1e1e2f, #12121a);
+      color: #fff;
+    }
+    header, footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #222244;
+    }
+    .container {
+      max-width: 800px;
+      margin: auto;
+      padding: 20px;
+    }
+    h1 {
+      font-size: 32px;
+      margin-bottom: 10px;
+    }
+    .article {
+      background-color: #2a2a3d;
+      padding: 20px;
+      border-radius: 10px;
+      margin-bottom: 20px;
+    }
+    .ads {
+      background-color: #33334d;
+      padding: 15px;
+      border-radius: 8px;
+      margin: 10px 0;
+      text-align: center;
+    }
+    .ads:hover {
+      background-color: #3f3f5c;
+      cursor: pointer;
+    }
+    .countdown {
+      font-size: 18px;
+      margin-top: 10px;
+    }
+    .download-btn {
+      display: block;
+      width: 100%;
+      background-color: #00aaff;
+      padding: 15px;
+      color: white;
+      font-size: 20px;
+      border: none;
+      border-radius: 10px;
+      text-align: center;
+      text-decoration: none;
+      margin-top: 20px;
+    }
+    .download-btn:hover {
+      background-color: #0088cc;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>تحميل تطبيق Free Fire Lock</h1>
+  </header>
+  <div class="container">
+    <div class="article">
+      <h2>عن التطبيق</h2>
+      <p>
+        تطبيق Free Fire Lock يساعدك على تحديد وقت للعب فري فاير ومنع الخروج منها حتى انتهاء المدة، ويبدأ التشغيل تلقائيًا حسب الساعة التي تحددها. ممتاز للتركيز والانضباط.
+      </p>
+    </div>
+    <div class="ads">🔒 منصة التداول Block Broker - اكتشف استثماراتك الآن!</div>
+    <div class="ads">🎮 حمل لعبة فري فاير المهكرة من هنا</div>
+    <div class="ads">💸 ربح المال من الإنترنت بسهولة</div>
+    <div class="ads">🛒 عروض تيمو الرهيبة - منتجات مجانية الآن!</div>
+    <div class="ads">📱 تطبيقات مهكرة مجانية ومميزة</div>
+    <div class="ads">🕹️ ألعاب أندرويد معدلة لأداء أفضل</div>
+    <div class="ads">📦 اشترِ الآن وادفع لاحقًا مع تيمو</div>
+    <div class="ads">💡 دورات مجانية لتعلم البرمجة</div>
+    <div class="ads">🏦 ربح من مشاهدة الإعلانات</div>
+    <div class="ads">🌐 تصفح الإنترنت وكسب المال</div>
+    <div class="article">
+      <h2>تحميل التطبيق</h2>
+      <p>يرجى الانتظار حتى نهاية العد التنازلي ليظهر زر التحميل.</p>
+      <div class="countdown" id="countdown">15</div>
+      <a id="downloadLink" class="download-btn" href="#" style="display: none;">تحميل التطبيق الآن</a>
+    </div>
+  </div>
+  <footer>
+    <p>© 2025 جميع الحقوق محفوظة. للتواصل: ahmdaalsysy9@gmail.com</p>
+  </footer>
+
+  <script>
+    let count = 15;
+    const countdownEl = document.getElementById('countdown');
+    const downloadBtn = document.getElementById('downloadLink');
+
+    const interval = setInterval(() => {
+      count--;
+      countdownEl.textContent = count;
+      if (count <= 0) {
+        clearInterval(interval);
+        countdownEl.style.display = 'none';
+        downloadBtn.style.display = 'block';
+        downloadBtn.href = 'Free_Fire_Lock.apk';
+      }
+    }, 1000);
+  </script>
+</body>
+</html>
